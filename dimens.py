@@ -33,7 +33,9 @@ base_txt_size = 100
 def main():
     # TV=====================================
     make_dir_and_file(x=1280, y=720)
+    make_dir_and_file(x=800, y=480)
     make_dir_and_file(x=1280, y=768)
+    make_dir_and_file(x=1280, y=800)
     make_dir_and_file(x=1920, y=1080)
     make_dir_and_file(x=2560, y=1440)
     # Phone==================================
