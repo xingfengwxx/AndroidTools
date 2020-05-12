@@ -25,23 +25,31 @@ TV=======================
 import os
 
 # 基准宽高，单位px.(设计稿的尺寸,TV是横屏，切换为手机时是竖屏，这里需要修改)
-base_x = 1280
-base_y = 720
+# Phone
+base_x = 1080
+base_y = 1920
 base_txt_size = 100
+
+# TV
+# base_x = 1920
+# base_y = 1080
+# base_txt_size = 100
 
 
 def main():
     # TV=====================================
-    make_dir_and_file(x=1280, y=720)
-    make_dir_and_file(x=800, y=480)
-    make_dir_and_file(x=1280, y=768)
-    make_dir_and_file(x=1280, y=800)
-    make_dir_and_file(x=1920, y=1080)
-    make_dir_and_file(x=2560, y=1440)
+    # make_dir_and_file(x=1280, y=720)
+    # make_dir_and_file(x=800, y=480)
+    # make_dir_and_file(x=1280, y=768)
+    # make_dir_and_file(x=1280, y=800)
+    # make_dir_and_file(x=1920, y=1080)
+    # make_dir_and_file(x=2560, y=1440)
+
     # Phone==================================
-    # make_dir_and_file(x=720, y=1280)
-    # make_dir_and_file(x=1080, y=1920)
-    # make_dir_and_file(x=1440, y=2560)
+    make_dir_and_file(x=720, y=576)
+    make_dir_and_file(x=720, y=1280)
+    make_dir_and_file(x=1080, y=1920)
+    make_dir_and_file(x=1440, y=2560)
 
 
 def make_dir_and_file(x, y):
